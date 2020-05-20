@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Reviews Page</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- <div class="container mt-5">
+      <div class="row col-xl-12  justify-content-between">
+        <div class="customer-title">
+          <h3 class="p-3 customer-title">Furkan Ulutaş</h3>
+        </div>
+        <div class="customer-title">
+          <h5 class="p-3 font-weight-bold body-color">1-R-7-1245454</h5>
+        </div>
+        </div>
+        </div> -->
+    <div class="container mt-5 p-3 d-flex">
+      <div class="row col-xl-8 align-content-start items-table shadow-sm">
+        <div class="item-table-title">
+          <h3 class="p-3 title-color">Ürünler</h3>
+        </div>
+        <div class="table-wrapper-scroll-y my-custom-scrollbar">
+          <table class="table titles-color">
+            <thead class="body-color">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ürün Kodu</th>
+                <th scope="col">Ürün Adı</th>
+                <th scope="col">Miktar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>97E87756SS1</td>
+                <td>Baby Darling Sansa Meşe Beşik</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>97E87786SS1</td>
+                <td>Baby Darling Pansa Meşe Beşik</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>97E87736SS1</td>
+                <td>Baby Darling Susa Meşe Beşik</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>97E87736SS1</td>
+                <td>Baby Darling Susa Meşe Beşik</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>97E87736SS1</td>
+                <td>Baby Darling Susa Meşe Beşik</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>97E87736SS1</td>
+                <td>Baby Darling Susa Meşe Beşik</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>97E87736SS1</td>
+                <td>Baby Darling Susa Meşe Beşik</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>97E87736SS1</td>
+                <td>Baby Darling Susa Meşe Beşik</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>97E87736SS1</td>
+                <td>Baby Darling Susa Meşe Beşik</td>
+                <td>1</td>
+              </tr>
+
+              <tr>
+                <th scope="row">3</th>
+                <td>97E87736SS1</td>
+                <td>Baby Darling Susa Meşe Beşik</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row col-xl-4 ml-5 p-0">
+        <div class="order-title">
+          <h3 class="p-3 title-color">Sipariş Detayi</h3>
+        </div>
+        <div class="col-xl-11 m-0 p-0">
+          <div
+            class="card shadow-sm bg-dark text-white radius text-center pt-3"
+          >
+            <div class="far fa-user text-center pt-0"></div>
+            <div class="card-titles customer-title text-white pt-3 pb-1">
+              <h5>Furkan Ulutaş</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="row order-detail w-100 mh-100 text-center radius pt-2">
+          <div class="col-xl-6 p-2">
+            <div class="card shadow-sm bg-white text-dark radius zoom cursor">
+              <div class="fas fa-calendar-day text-center pt-4"></div>
+              <div class="card-body font-weight-bold body-color">
+                <p>08/01/2020</p>
+              </div>
+              <div class="card-titles font-weight-light titles-color">
+                <p>Gönderim Tarihi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-6 p-2">
+            <div class="card shadow-sm bg-white text-dark radius zoom cursor">
+              <div class="far fa-comment-dots text-center pt-4"></div>
+              <div class="card-body font-weight-bold body-color">
+                <p>09/01/2020</p>
+              </div>
+              <div class="card-titles font-weight-light titles-color">
+                <p>Yorum Tarihi</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 p-2">
+            <div class="card shadow-sm bg-white text-dark radius zoom cursor">
+              <div class="fas fa-truck text-center pt-4"></div>
+              <div class="card-body font-weight-bold body-color">
+                <p>1 Gün</p>
+              </div>
+              <div class="card-titles font-weight-light titles-color">
+                <p>Varış Tahmini</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 p-2">
+            <div class="card shadow-sm bg-white text-dark radius zoom cursor">
+              <div class="fas fas fa-store-alt text-center pt-4"></div>
+              <div class="card-body font-weight-bold body-color">
+                <p>Online</p>
+              </div>
+              <div class="card-titles font-weight-light titles-color">
+                <p>Mağaza</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container col-xl-5 mt-4">
+      <div class="item-table-title">
+        <h3 class="p-3 title-color text-center">Müşteri Yorumu</h3>
+      </div>
+      <i class="fas fa-quote-left body-color"></i>
+      <div class="customer-body text-center customer-message">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam unde
+        voluptates nihil quam possimus praesentium iure quia sequi voluptate
+        illum in eaque tempore obcaecati, est alias officiis veritatis sunt
+        temporibus!
+      </div>
+      <i class="fas fa-quote-right float-right body-color"></i>
+      <div class="rating text-center mt-5 text-warning">
+        <p>
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+        </p>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
